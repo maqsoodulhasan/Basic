@@ -5,30 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>LOGIN</title>
 </head>
 
 <body>
-    <header>
-        <h1>this is login page</h1>
-        <nav>
+    <div class = "logo"> <a href="#"><img src="logo.jpg" alt="logo"></a> </div>
+        <nav class = "navbar">
+      
             <ul>
-                <li><a href="https://www.google.se/">Go To Google</a></li>
-                <li><a href="https://www.yahoo.com/">Go To Yahoo</a></li>
-                <li><a href="https://www.microsoft.com/">Go To Microsoft</a></li>
+               
+                <li class = "listitem"><a href="https://www.google.se/">Google</a></li>
+                <li class = "listitem"><a href="https://www.yahoo.com/">Yahoo</a></li>
+                <li class = "listitem"><a href="https://www.microsoft.com/">Microsoft</a></li>
+                <div class="login"><a href="Index.html">Back to Index</a></div>
+                
             </ul>
         </nav>
-        <a href="/Index.html">Back to Index</a>
-    </header>
-    <div>
+      
+    
+    <div class ="container">
+        <div class="login-header"><b>IT SERVICES COMPANIES</b></div>
+    <div class="userlogin">
         <h1>User Login</h1>
-        <form>
-            <input type="text" id="Uname" name="Username">
-            <input type="password" id="Pword" name="Password">
-            <input type="submit" value="Reset">
-            <input type="submit" value="SighIn">
+        <form class="inputform">
+
+            <label for="Uname">User Name</label><br>
+           <input type="text" id="Uname" name="Username"><br> 
+           <label for="Pword">Password</label><br>
+           <input type="password" id="Pword" name="Password"><br>
+            <input type="button" value="Reset" id="resetbtn">
+            <input type="submit" value="SighIn" id="signinbtn">
         </form>
     </div>
+</div>
     <footer>
         <span>&copy;Maqsood-ul Hasan</span>
     </footer>
